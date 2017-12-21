@@ -15,6 +15,7 @@ Total: 36
 ```
 ```
 echo -e "/etc/passwd\n/etc/hosta" | go run main.go --type file
+Error in /etc/hosta: open /etc/hosta: no such file or directory
 Count for /etc/passwd: 0
 Total: 0
 ```
